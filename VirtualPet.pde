@@ -1,27 +1,31 @@
-
 void setup(){
-   size(400,400);
+  //some of your code here
+ size(400,400);
   noStroke();
 
-  //Head
-  ellipse(175,175,150,100);
-
-
-  //Body
-  fill(0,0,0);
-  ellipse(250,225,200,100);
 }
 void draw(){
+  stroke(0,0,0);
+  fill(205,133,63);
   //legs
-    //leg 1 front
-    ellipse(300,275,50,150);
+    //leg 1 back
+    ellipse(300,270,50,125);
 
-    //leg 2 front
-    ellipse(175,275,50,150);
-    
-    //leg 3 back
-    ellipse(325,275,50,150);
-    //leg 4 back
-    ellipse(200,275,50,150);
+    //leg 2 back
+    ellipse(175,270,50,125);
+ 
+  fill(205,133,63);
+      //leg 3 front
+    ellipse(325,270,50,125);
+    //leg 4 front
+    ellipse(200,270,50,125);
+    noStroke();
+      //Body
+  fill(205,133,63);
+  ellipse(250,225,200,100);
+  fill(205,133,63);
+    //Head
+  ellipse(175,175,150,100);
+
+  
 }
-
