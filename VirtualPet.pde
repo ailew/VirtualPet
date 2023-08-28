@@ -9,10 +9,10 @@ void draw() {
   // Draw ears
   fill(205, 133, 63);
   stroke(0);
-  circle(225, 140, 50);
-  circle(240, 150, 50);
+  ellipse(225, 140, 50,50);
+  ellipse(240, 150, 50,50);
   fill(244,164,96);
-  circle(240, 150, 25);
+  ellipse(240, 150, 25,25);
 
   // Draw legs
   fill(205, 133, 63);
