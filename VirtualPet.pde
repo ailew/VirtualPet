@@ -1,9 +1,3 @@
-
-void setup(){
-  size(400, 400);
-  noStroke();
-}
-void draw(){
  background(220);
 
   // Draw ears
@@ -80,4 +74,3 @@ void draw(){
   ellipse(166, 272, 25, 15);
   ellipse(200, 272, 39, 30);
   ellipse(292.5, 270, 23, 15);
-}
