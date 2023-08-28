@@ -1,10 +1,10 @@
-void setup() {
+
+void setup(){
   size(400, 400);
   noStroke();
 }
-
-void draw() {
-  background(220);
+void draw(){
+ background(220);
 
   // Draw ears
   fill(205, 133, 63);
