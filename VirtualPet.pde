@@ -1,4 +1,10 @@
- background(220);
+void setup() {
+  size(400, 400);
+  noStroke();
+}
+
+void draw() {
+  background(220);
 
   // Draw ears
   fill(205, 133, 63);
@@ -55,7 +61,7 @@
   // Foot 2
   ellipse(195, 285, 40, 30);
 
-  
+ 
   // Leg 3 back
   fill(205, 133, 63);
   stroke(0,0,0);
@@ -66,7 +72,7 @@
   fill(205, 133, 63);
   noStroke();
   ellipse(310, 220, 50, 70);
-  
+ 
   //extra
   //stroke(0,0,0);
   ellipse(215, 215, 130, 90);
@@ -74,3 +80,4 @@
   ellipse(166, 272, 25, 15);
   ellipse(200, 272, 39, 30);
   ellipse(292.5, 270, 23, 15);
+}
